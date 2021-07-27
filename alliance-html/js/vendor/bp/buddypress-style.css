@@ -1,0 +1,451 @@
+/* Buddy Press Styles
+----------------------------------------------- */
+
+#buddypress #item-body form#whats-new-form {
+  margin-top: 1.5em;
+}
+
+.buddypress select,
+#buddypress select {
+  border: 1px solid #ddd;
+  color: #666;
+  font-weight: 300;
+}
+
+.widget.buddypress div.item-avatar img {
+  height: 50px;
+  width: 50px;
+}
+
+#buddypress ul.item-list li {
+  padding: 30px 0;
+}
+
+h2.user-nicename {
+  font-size: 20px;
+}
+
+#buddypress div#item-header {
+  margin-bottom: 20px;
+}
+
+#buddypress div.item-list-tabs ul li a span {
+  background: transparent;
+  border-radius: 50%;
+  border: none;
+  color: inherit;
+  display: inline;
+  font-size: 12px;
+  margin-left: 5px;
+  padding: 0;
+  text-align: center;
+  vertical-align: inherit;
+}
+
+#buddypress div.item-list-tabs ul li a:hover span {
+  background-color: transparent;
+}
+
+#buddypress div.item-list-tabs ul li.current a span, #buddypress div.item-list-tabs ul li.selected a span {
+  background-color: transparent;
+}
+
+#activity-filter-select label,
+#notifications-sort-order label,
+#members-order-select label ,
+#groups-order-select label,
+nav#buddydrive-item-nav ul li.last,
+#buddypress div#whats-new-post-in-box {
+  font-size: 12px;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 5px;
+  vertical-align: top;
+  line-height: 39px;
+}
+
+#buddypress #item-body form#whats-new-form {
+  margin-top: 35px !important;
+  overflow: hidden;
+}
+
+#buddypress form#whats-new-form p.activity-greeting {
+  line-height: 13px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  font-weight: 600;
+}
+
+#buddypress form#whats-new-form #whats-new-avatar {
+  display: none;
+}
+
+#buddypress form#whats-new-form #whats-new-content {
+  margin-left: 0;
+  padding: 0;
+}
+
+#buddypress #whats-new-options {
+  overflow: inherit;
+}
+
+#buddypress form#whats-new-form textarea {
+  background: #F4F7F9;
+  color: #555;
+  font-family: inherit;
+  font-size: medium;
+  padding: 6px;
+  width: 100%;
+}
+
+#buddypress input[type=submit]#aw-whats-new-submit {
+  margin-right: 0;
+}
+
+#buddypress input[type=submit]#aw-whats-new-submit:hover{
+box-shadow: none !important;
+}
+
+#buddypress form#whats-new-form #whats-new-submit {
+  float: left;
+  margin-top: 20px;
+}
+
+#buddypress #activity-stream {
+  margin-top: 40px;
+}
+
+#buddypress .activity-list .activity-content {
+  margin: -13px 0 0 80px;
+}
+
+.activity-list li.bbp_topic_create .activity-content .activity-inner, .activity-list li.bbp_reply_create .activity-content .activity-inner {
+  border-left: 0px solid #eaeaea;
+  padding-left: 0px;
+}
+
+.activity-item blockquote p {
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.activity-item blockquote {
+  padding: 15px 15px 15px 20px;
+}
+
+.activity-item  blockquote:before {
+  left: 5px;
+  top: 2px;
+  font-size: 70px;
+}
+
+.activity-item blockquote:after {
+  content: none;
+}
+
+#buddypress .activity-list .activity-content .activity-inner, #buddypress .activity-list .activity-content blockquote {
+  margin: 10px 10px 20px 0;
+}
+
+#buddypress #reply-title small a span, #buddypress a.bp-primary-action span {
+  background: transparent;
+}
+
+#buddypress #reply-title small a:hover span, #buddypress a.bp-primary-action:hover span {
+  background: transparent;
+  color: #fff;
+}
+
+#buddypress div.activity-comments form .ac-textarea {
+  background: #F4F7F9;
+  border: none;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+#buddypress .activity-list li.mini .activity-avatar img.FB_profile_pic, #buddypress .activity-list li.mini .activity-avatar img.avatar {
+  height: inherit;
+  margin-left: 0;
+  width: 50px;
+}
+
+#buddypress ul.activity-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+#buddypress div.profile h4 {
+  margin-bottom: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#buddypress .standard-form label {
+  display: block;
+  font-weight: 600;
+  margin: 20px 0 5px;
+  width: auto;
+  color: #2a2f43;
+  font-size: 14px;
+}
+
+#buddypress .dir-search input[type=search], #buddypress .dir-search input[type=text], #buddypress .groups-members-search input[type=search], #buddypress .groups-members-search input[type=text], #buddypress .standard-form input[type=color], #buddypress .standard-form input[type=date], #buddypress .standard-form input[type=datetime-local], #buddypress .standard-form input[type=datetime], #buddypress .standard-form input[type=email], #buddypress .standard-form input[type=month], #buddypress .standard-form input[type=number], #buddypress .standard-form input[type=password], #buddypress .standard-form input[type=range], #buddypress .standard-form input[type=search], #buddypress .standard-form input[type=tel], #buddypress .standard-form input[type=text], #buddypress .standard-form input[type=time], #buddypress .standard-form input[type=url], #buddypress .standard-form input[type=week], #buddypress .standard-form select, #buddypress .standard-form textarea {
+  border: 1px solid #DBE0E4;
+  background: #fafafa;
+  border-radius: 0;
+  color: #888;
+  font: inherit;
+  font-size: 100%;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+#buddypress input[type="submit"]#profile-group-edit-submit,
+#buddypress input[type="submit"]#messages_search_submit,
+#buddypress .standard-form div.submit input,
+#buddydrive-forms input[type="button"]#plupload-browse-button,
+.buddydrive-action.folder input[type="submit"],
+.buddydrive-action.folder .cancel-folder{
+  box-shadow: 0 3px #60c4d0;
+}
+
+#buddypress .field-visibility-settings, #buddypress .field-visibility-settings-notoggle, #buddypress .field-visibility-settings-toggle {
+  color: #7f828f;
+  font-size: 12px;
+  font-style: italic;
+}
+
+table#message-threads th {
+  text-align: left;
+}
+
+form#messages-bulk-management {
+  margin-top: 30px;
+}
+
+#buddypress a.disabled, #buddypress button.disabled, #buddypress button.pending, #buddypress div.pending a, #buddypress input[type=submit].disabled, #buddypress input[type=submit].pending, #buddypress input[type=submit][disabled=disabled], #buddypress input[type=button].disabled, #buddypress input[type=button].pending, #buddypress input[type=reset].disabled, #buddypress input[type=reset].pending {
+  border-color: transparent;
+  color: #fff;
+  cursor: default;
+  box-shadow: 0 3px #60c4d0;
+}
+
+#search-message-form input[type="text"] {
+  line-height: 39px;
+  padding: 0 5px;
+  vertical-align: top;
+}
+
+.buddypress select, #buddypress select {
+  border: 1px solid #ddd;
+  color: #666;
+  font-weight: 400;
+  height: 39px;
+  vertical-align: sub;
+  border-radius: 5px;
+}
+
+/*table*/
+#buddypress table.messages-notices,
+#buddypress table.notifications,
+#buddypress table#buddydrive-dir {
+  color: #222222;
+  overflow: hidden;/* In Chrome hide right and bottom borders for the table */
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+#buddypress table.messages-notices th,
+#buddypress table.messages-notices td,
+#buddypress table.notifications th,
+#buddypress table.notifications td,
+#buddypress table#buddydrive-dir th,
+#buddypress table#buddydrive-dir td {
+  padding: 1em;
+   border: none;
+}
+
+#buddypress table.messages-notices thead tr,
+#buddypress table.notifications thead tr,
+#buddypress table#buddydrive-dir thead tr {
+  background-color: #67d3e0;
+  color: #ffffff;
+}
+
+#buddypress table.messages-notices tbody tr,
+#buddypress table.notifications tbody tr,
+#buddypress table#buddydrive-dir tbody tr {
+  background-color: #f4f7f9;
+}
+
+#buddypress table.messages-notices tbody tr:nth-child(2n),
+#buddypress table.notifications tbody tr:nth-child(2n),
+#buddypress table#buddydrive-dir tbody tr:nth-child(2n) {
+  background-color: #fff;
+}
+
+#buddypress table.messages-notices thead tr:first-child,
+#buddypress table.notifications thead tr:first-child,
+#buddypress table#buddydrive-dir thead tr:first-child {
+  background-color: #2a2f43;
+}
+
+#buddypress table.messages-notices thead th ,
+#buddypress table.notifications thead th,
+#buddypress table#buddydrive-dir thead th {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 9px 8px;
+  text-align: left;
+}
+
+#buddypress table.messages-notices thead tr:last-child,
+#buddypress table.messages-notices tbody tr:first-child ,
+#buddypress table.notifications thead tr:last-child,
+#buddypress table.notifications tbody tr:first-child,
+#buddypress table#buddydrive-dir thead tr:last-child,
+#buddypress table#buddydrive-dir tbody tr:first-child {
+  border: none;
+}
+
+#buddypress table.messages-notices td ,
+#buddypress table.notifications td ,
+#buddypress table#buddydrive-dir td {
+  font-weight: 400;
+  padding: 11px 8px;
+  color: #7f828f;
+  text-transform: none;
+  font-size: 13px;
+}
+
+#buddypress table.messages-notices thead tr:first-child td ,
+#buddypress table.notifications thead tr:first-child td,
+#buddypress table#buddydrive-dir thead tr:first-child td {
+  color: #9b9ead;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 4px 30px;
+}
+
+#buddypress table.messages-notices tr:first-child th:first-child ,
+#buddypress table.notifications tr:first-child th:first-child,
+#buddypress table#buddydrive-dir tr:first-child th:first-child {
+  overflow: hidden;
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-top-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+#buddypress table.messages-notices tr:first-child th:last-child,
+#buddypress table.notifications tr:first-child th:last-child,
+#buddypress table#buddydrive-dir tr:first-child th:last-child {
+  overflow: hidden;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-top-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#buddypress div.pagination .pag-count {
+  float: left;
+  margin-left: 0px;
+}
+
+#buddypress {
+  overflow: hidden;
+}
+
+#buddypress div.item-list-tabs#subnav {
+  background: 0 0;
+  margin: 10px 0 40px;
+  overflow: hidden;
+}
+
+#buddypress ul.item-list li div.action {
+  top: 40px;
+}
+
+nav#buddydrive-item-nav ul {
+  padding-left: 0;
+}
+
+nav#buddydrive-item-nav ul li.last {
+  float: right;
+  padding: 0;
+}
+
+#buddydrive-filter {
+  vertical-align: top !important;
+  margin-left: 5px;
+}
+
+#buddypress table#buddydrive-dir {
+  width: 100%;
+}
+
+
+#buddypress .activity-list li.load-more, #buddypress .activity-list li.load-newest {
+  background: #F4F7F9;
+  font-weight: 600;
+  padding-bottom: 10px !important;
+}
+
+#buddypress form#whats-new-form #whats-new-options select {
+  margin-top: 20px;
+}
+
+#buddypress div#whats-new-post-in-box {
+  float: right;
+    vertical-align: bottom;
+}
+
+#buddypress div#whats-new-post-in-box #whats-new-post-in{
+	margin-left: 5px;
+}
+
+#buddypress .activity-list .activity-content .activity-header, #buddypress .activity-list .activity-content .comment-header, #buddypress a.activity-time-since {
+  color: #2a2f43;
+  line-height: inherit;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+form#whats-new-form + div.item-list-tabs {
+  margin-top: 50px;
+}
+
+#buddypress div.item-list-tabs#subnav a {
+  margin: 0;
+}
+
+#buddypress div.item-list-tabs ul li.current a, #buddypress div.item-list-tabs ul li.selected a{
+	opacity: 1;
+}
+
+#buddyfile-desc, #buddypress .standard-form textarea {
+  width: 100%!important;
+  height: 50px!important;
+}
+
+#members-directory-form .item-list-tabs {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 40px 0!important;
+}
+
+#buddypress div.item-list-tabs#subnav ul li.last {
+  margin-top: 0px;
+}
+
+#members-directory-form .item-list-tabs#subnav {
+  margin-left: 10px !important;
+}
+
+#buddypress input[type="submit"]#profile-group-edit-submit{
+  box-shadow: none !important;
+}

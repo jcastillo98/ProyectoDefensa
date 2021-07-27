@@ -1,0 +1,14 @@
+
+.weblator-poll-container canvas {
+
+    height: auto !important;
+    max-width: 100%!important;
+
+}
+
+.weblator-poll-container canvas.full-width {
+
+    width:100%!important;
+
+}
+

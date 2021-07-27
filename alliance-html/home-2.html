@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <title>Home Style 2 &#8211; Alliance</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Love+Ya+Like+A+Sister|Montserrat:100,200,300,400,500,600,700,800,900|Open+Sans:300,300i,400,400i,600,700,700i,800|Raleway:100,200,300,400,500,600,700,800,900|Roboto:100,100i,300,300i,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/public.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/fontello/css/fontello.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/shortcodes.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/core.animation.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/skin.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/custom-style.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/responsive.css' type='text/css' media='all' /> 
+    <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/comp/comp.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/notie.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/core.messages.css' type='text/css' media='all' />
+</head>
+
+<body class="page home2 body_style_fullwide body_filled article_style_stretch top_panel_style_dark top_panel_opacity_solid top_panel_over sidebar_hide responsive_menu vc_responsive no-js">
+
+<div class="body_wrap">
+    <div class="page_wrap">
+        <header class="top_panel_wrap">
+            <div class="menu_user_wrap">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/Logo.png" class="logo_main" alt="">
+                    </a>
+                </div>
+                <div class="menu_user_area menu_user_right menu_user_nav_area m_top">
+                    <ul id="menu_user" class="menu_user_nav">
+                        <li class="menu_user_register"><a href="#popup_registration" class="popup_link popup_register_link">Register</a>
+                            <div id="popup_registration" class="popup_wrap popup_registration bg_tint_light">
+                                <a href="#" class="popup_close"></a>
+                                <div class="form_wrap">
+                                    <form name="registration_form" method="post" class="popup_form registration_form">
+                                        <input type="hidden" name="redirect_to" value="index.html" />
+                                        <div class="form_left">
+                                            <div class="popup_form_field login_field iconed_field">
+                                                <input type="text" id="registration_username" name="registration_username" value="" placeholder="User name (login)">
+                                            </div>
+                                            <div class="popup_form_field email_field iconed_field">
+                                                <input type="text" id="registration_email" name="registration_email" value="" placeholder="E-mail">
+                                            </div>
+                                            <div class="popup_form_field agree_field">
+                                                <input type="checkbox" value="agree" id="registration_agree" name="registration_agree">
+                                                <label for="registration_agree">I agree with</label> <a href="#">Terms &amp; Conditions</a>
+                                            </div>
+                                            <div class="popup_form_field submit_field">
+                                                <input type="submit" class="submit_button" value="Sign Up">
+                                            </div>
+                                        </div>
+                                        <div class="form_right">
+                                            <div class="popup_form_field password_field iconed_field">
+                                                <input type="password" id="registration_pwd" name="registration_pwd" value="" placeholder="Password">
+                                            </div>
+                                            <div class="popup_form_field password_field iconed_field">
+                                                <input type="password" id="registration_pwd2" name="registration_pwd2" value="" placeholder="Confirm Password">
+                                            </div>
+                                            <div class="popup_form_field description_field">Minimum 6 characters</div>
+                                        </div>
+                                    </form>
+                                    <div class="result message_block"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu_user_login">
+                            <a href="#popup_login" class="popup_link popup_login_link">Login</a>
+                            <div id="popup_login" class="popup_wrap popup_login bg_tint_light popup_half">
+                                <a href="#" class="popup_close"></a>
+                                <div class="form_wrap">
+                                    <div>
+                                        <form action="#" method="post" name="login_form" class="popup_form login_form">
+                                            <input type="hidden" name="redirect_to" value="#">
+                                            <div class="popup_form_field login_field iconed_field icon-user-2">
+                                                <input type="text" id="log" name="log" value="" placeholder="Login or Email">
+                                            </div>
+                                            <div class="popup_form_field password_field iconed_field icon-lock-1">
+                                                <input type="password" id="password" name="pwd" value="" placeholder="Password">
+                                            </div>
+                                            <div class="popup_form_field remember_field">
+                                                <a href="#" class="forgot_password">Forgot password?</a>
+                                                <input type="checkbox" value="forever" id="rememberme" name="rememberme">
+                                                <label for="rememberme">Remember me</label>
+                                            </div>
+                                            <div class="popup_form_field submit_field">
+                                                <input type="submit" class="submit_button" value="Login">
+                                            </div>
+                                            <div class="result message_block"></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="search_wrap search_style_regular search_ajax" title="Open/close search form">
+                        <a href="#" class="search_icon icon-23"></a>
+                        <div class="search_form_wrap">
+                            <form role="search" method="get" class="search_form" action="#">
+                                <button type="submit" class="search_submit icon-23" title="Start search"></button>
+                                <input type="text" class="search_field" placeholder="" value="" name="s" title="" />
+                            </form>
+                        </div>
+                        <div class="search_results widget_area bg_tint_light">
+                            <a class="search_results_close icon-cancel"></a>
+                            <div class="search_results_content"></div>
+                        </div>
+                    </div>
+                    <div class="menu_button show_menu">Show Menu</div>
+                </div>
+            </div>
+        </header>
+        <aside class="menu_main_wrap">
+            <nav role="navigation" class="menu_main_nav_area">
+                <ul id="menu_main" class="menu_main_nav">
+                    <li class="icon-3 menu-item current-menu-ancestor current-menu-parent menu-item-has-children"><a>Inicio</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="index.html">ESTILO 1</a></li>
+                            <li class="menu-item current-menu-item"><a href="home-2.html">ESTILO 2</a></li>
+                            <li class="menu-item"><a href="home-3.html">ESTILO 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="icon-22 menu-item menu-item-has-children"><a>ESQUEMA DE COLORES</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="scheme-1.html">ESQUEMA DE COLORES 1</a></li>
+                            <li class="menu-item"><a href="scheme-2.html">ESQUEMA DE COLORES 2</a></li>
+                            <li class="menu-item"><a href="scheme-3.html">ESQUEMA DE COLORES 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="icon-5 menu-item menu-item-has-children"><a>Acerca de</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="ceo.html">Presidente del comité</a></li>
+                            <li class="menu-item"><a href="leaders.html">Delegados</a></li>
+                            <li class="menu-item"><a href="team.html">Departamentos</a></li>
+                        </ul>
+                    </li>
+                    <li class="icon-7 menu-item"><a href="post-formats.html">Podcast</a></li>
+                    <li class="icon-17 menu-item menu-item-has-children"><a>Educación</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="trainings.html">Tutores</a></li>
+                            <!--li class="menu-item"><a href="tests.html">Tests and Quizzes</a></!--li>-->
+                            <li class="menu-item"><a href="tutorials.html">Tutoriales</a></li>
+                        </ul>
+                    </li>
+                    <li class="icon-21 menu-item menu-item-has-children"><a>Bolsa de empleo</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="vacancies.html">Vacantes</a></li>
+                            <li class="menu-item"><a href="resumes.html">Ejemplos de hoja de vida</a></li>
+                        </ul>
+                    </li>
+                    <li class="icon-8 menu-item menu-item-has-children"><a>Comunidad</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="forums.html">Foros</a></li>
+                            <li class="menu-item"><a href="single-topic.html">Ejemplo 1</a></li>
+                        </ul>
+                    </li>
+                    <li class="icon-2 menu-item menu-item-has-children"><a>Proyectos del comité</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="activity.html">Actividad</a></li>
+                            <li class="menu-item"><a href="groups.html">Grupos</a></li>
+                            <li class="menu-item"><a href="members.html">Miembros</a></li>
+                        </ul>
+                    </li>
+                    <!--<li class="icon-9 menu-item menu-item-has-children"><a>File Storage</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="development.html">Development</a></li>
+                            <li class="menu-item"><a href="marketing.html">Marketing</a></li>
+                            <li class="menu-item"><a href="accounting.html">Accounting</a></li>
+                            <li class="menu-item"><a href="resources.html">Human Resources</a></li>
+                            <li class="menu-item"><a href="supporter.html">Support</a></li>
+                        </ul>
+                    </li>-->
+                    <li class="icon-10 menu-item menu-item-has-children"><a>Galería de fotos</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="events.html">Eventos</a></li>
+                            <li class="menu-item"><a href="cobbles.html">Galería en Adoquines</a></li>
+                            <li class="menu-item"><a href="grid.html">Galería en rejillas</a></li>
+                            <li class="menu-item"><a href="margin-grid.html">Galería de cuadrículas con margenes</a></li>
+                            <!--<li class="menu-item"><a href="masonry.html">Masonry Gallery</a></,li>-->     
+                        </ul>
+                    </li>
+                    <!--
+                    <li class="icon-13 menu-item menu-item-has-children"><a>Theme Elements</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="shortcodes.html">Shortcodes</a></li>
+                            <li class="menu-item"><a href="typography.html">Typography</a></li>
+                            <li class="menu-item"><a href="infographic.html">Infographic</a></li>
+                            <li class="menu-item menu-item-has-children"><a>Pages</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="single-post.html">Blog Post</a></li>
+                                    <li class="menu-item"><a href="single-event.html">Event Page</a></li>
+                                    <li class="menu-item"><a href="single-training.html">Training Page</a></li>
+                                    <li class="menu-item"><a href="single-test.html">Quiz Page</a></li>
+                                    <li class="menu-item"><a href="single-team.html">Team Member</a></li>
+                                    <li class="menu-item"><a href="about.html">About Company</a></li>
+                                    <li class="menu-item"><a href="contacts.html">Contacts</a></li>
+                                    <li class="menu-item"><a href="support.html">Support</a></li>
+                                    <li class="menu-item"><a href="faq.html">FAQ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>-->
+                </ul>
+            </nav>
+        </aside>
+        <div class="page_content_wrap">
+            <div class="content_wrap">
+                <div class="content">
+                    <article class="post_item post_item_single post_featured_left post_format_standard page hentry">
+                        <section class="post_content">
+                            <div class="sc_reviews alignright">
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <figure class="sc_image  alignleft sc_image_shape_square cublock1">
+                                                <img src="images/66-30x30.jpg" alt="" />
+                                            </figure>
+                                            <p class="sc_text fst1">My job is not be easy on people. My job is to make them better. &#8211; <i>Steve Jobs</i></p>
+                                            <div class="grid ">
+                                                <div class="grid-sizer"></div>
+                                                <div class="gutter-sizer"></div>
+                                                <div class="grid-item grid-item--width3 ">
+                                                    <div class="sc_section bg2">
+                                                        <div class="sc_section_overlay pd40">
+                                                            <div class="sc_section_content">
+                                                                <a name="target-toc-0"></a>
+                                                                <h2 class="tw-chart-title">Performance</h2>
+                                                                <div class="tw-chart-graph tw-animate tw-redraw with-list-desc w1040p" data-zero="false" data-labels="Label 1, Label 2, Label 3, Label 4, Label 5, Label 6, Label 6" data-type="Curve" data-item-height="300" data-animation-delay="0" data-animation-offset="90%">
+                                                                    <ul class="data">
+                                                                        <li data-datas="70, 58, 64, 60, 68, 60, 70, 70" data-fill-color="#89e1ee" data-fill-text="Attribute 1"></li>
+                                                                        <li data-datas="60, 48, 55, 52, 59, 50, 60, 70" data-fill-color="#5cbece" data-fill-text="Attribute 2"></li>
+                                                                        <li data-datas="40, 42, 38, 48, 46, 40, 50, 70" data-fill-color="#34aabe" data-fill-text="Attribute 3"></li>
+                                                                    </ul>
+                                                                    <canvas></canvas>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="grid-item">
+                                                    <div class="sc_infobox sc_infobox_style_success sc_infobox_closeable">
+                                                        <div class="sc_infobox_before_title">Important Notification</div>
+                                                        <div class="sc_infobox_title">General</div>The office will be closed on the 1.07!</div>
+                                                    <div class="sc_section cublock3">
+                                                        <div class="sc_section_overlay pd30 shift1">
+                                                            <div class="sc_section_content">
+                                                                <figure class="sc_image alignleft sc_image_shape_square cublock2">
+                                                                    <img src="images/67-91x92.png" alt="" />
+                                                                </figure>
+                                                                <a name="target-toc-1"></a>
+                                                                <h6 class="sc_title sc_title_regular fst4">TICKETS ANSWERED</h6>
+                                                                <p class="sc_text fst5">958</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sc_section bg2">
+                                                        <div class="sc_section_overlay pd30 shift1">
+                                                            <div class="sc_section_content">
+                                                                <figure class="sc_image alignleft sc_image_shape_square cublock2">
+                                                                    <img src="images/68-91x91.png" alt="" />
+                                                                </figure>
+                                                                <a name="target-toc-2"></a>
+                                                                <h6 class="sc_title sc_title_regular fst4">PROJECTS LAUNCHED</h6>
+                                                                <p class="sc_text fst5">167</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="grid-item">
+                                                    <div class="sc_section bg2">
+                                                        <div class="sc_section_overlay pd40">
+                                                            <div class="sc_section_content">
+                                                                <div class="sc_chart_diagram">
+                                                                    <div id="_sk_661" class="sc_chart_item">
+                                                                        <div class="sc_chart_item_canvas">
+                                                                            <canvas id="canvas__sk_661" height="190" width="190" data-percent="85" data-color="#dee6eb" data-darkcolor="#67d3e0"></canvas>
+                                                                            <div class="sc_chart_item_value ch_item1">85</div>
+                                                                        </div>
+                                                                        <div class="sc_chart_content">
+                                                                            <span>Goal Progress</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="grid-item">
+                                                    <div class="sc_section bg2">
+                                                        <div class="sc_section_overlay pd40">
+                                                            <div class="sc_section_content">
+                                                                <div class="sc_chart_diagram">
+                                                                    <div id="_sk_152" class="sc_chart_item">
+                                                                        <div class="sc_chart_item_canvas">
+                                                                            <canvas id="canvas__sk_152" height="190" width="190" data-percent="65" data-color="#dee6eb" data-darkcolor="#8cc80c"></canvas>
+                                                                            <div class="sc_chart_item_value ch_item2">65</div>
+                                                                        </div>
+                                                                        <div class="sc_chart_content">
+                                                                            <span>File Capacity</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="grid-item">
+                                                    <div class="sc_section bg2">
+                                                        <div class="sc_section_overlay pd40">
+                                                            <div class="sc_section_content">
+                                                                <div class="sc_chart_diagram">
+                                                                    <div id="_sk_443" class="sc_chart_item">
+                                                                        <div class="sc_chart_item_canvas">
+                                                                            <canvas id="canvas__sk_443" height="190" width="190" data-percent="62" data-color="#dee6eb" data-darkcolor="#ffbc0b"></canvas>
+                                                                            <div class="sc_chart_item_value ch_item3">62</div>
+                                                                        </div>
+                                                                        <div class="sc_chart_content">
+                                                                            <span>Volunteering</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="grid-item">
+                                                    <div class="sc_sidebar_selector">
+                                                        <div class="sc_columns_1 sc_columns_indent">
+                                                            <div class="widget_area">
+                                                                <aside class="widget widget_recent_posts">
+                                                                    <a name="target-toc-3"></a>
+                                                                    <h5 class="widget_title">Recent Posts</h5>
+                                                                    <article class="post_item with_thumb first">
+                                                                        <div class="post_thumb">
+                                                                            <img alt="" src="images/2000x2000.png">
+                                                                        </div>
+                                                                        <div class="post_content">
+                                                                            <a name="target-toc-4"></a>
+                                                                            <h6 class="post_title">
+                                                                                <a href="single-post.html">Id est laborum et dolorum fuga</a>
+                                                                            </h6>
+                                                                            <div class="post_info">
+                                                                                <span class="post_info_item post_info_posted">
+                                                                                    <a href="single-post.html" class="post_info_date">July 21, 2015</a>
+                                                                                </span>
+                                                                                <span class="post_info_item post_info_posted_by">by
+                                                                                    <a href="development.html" class="post_info_author">Kate Dillon (Development)</a>
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </article>
+                                                                    <article class="post_item with_thumb">
+                                                                        <div class="post_thumb">
+                                                                            <img alt="" src="images/2000x2000.png">
+                                                                        </div>
+                                                                        <div class="post_content">
+                                                                            <a name="target-toc-5"></a>
+                                                                            <h6 class="post_title">
+                                                                                <a href="single-post.html">Inventore veritatis et quasi</a>
+                                                                            </h6>
+                                                                            <div class="post_info">
+                                                                                <span class="post_info_item post_info_posted">
+                                                                                    <a href="single-post.html" class="post_info_date">July 21, 2015</a>
+                                                                                </span>
+                                                                                <span class="post_info_item post_info_posted_by">by
+                                                                                    <a href="development.html" class="post_info_author">Kate Dillon (Development)</a>
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </article>
+                                                                    <article class="post_item with_thumb">
+                                                                        <div class="post_thumb">
+                                                                            <img alt="" src="images/2000x2000.png">
+                                                                        </div>
+                                                                        <div class="post_content">
+                                                                            <a name="target-toc-6"></a>
+                                                                            <h6 class="post_title">
+                                                                                <a href="single-post.html">Ed quia non numquam eius</a>
+                                                                            </h6>
+                                                                            <div class="post_info">
+                                                                                <span class="post_info_item post_info_posted">
+                                                                                    <a href="single-post.html" class="post_info_date">July 21, 2015</a>
+                                                                                </span>
+                                                                                <span class="post_info_item post_info_posted_by">by
+                                                                                    <a href="development.html" class="post_info_author">Kate Dillon (Development)</a>
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </article>
+                                                                    <article class="post_item with_thumb">
+                                                                        <div class="post_thumb">
+                                                                            <img alt="" src="images/2000x2000.png">
+                                                                        </div>
+                                                                        <div class="post_content">
+                                                                            <a name="target-toc-7"></a>
+                                                                            <h6 class="post_title">
+                                                                                <a href="single-post.html">Consectetur adipiscing elit</a>
+                                                                            </h6>
+                                                                            <div class="post_info">
+                                                                                <span class="post_info_item post_info_posted">
+                                                                                    <a href="single-post.html" class="post_info_date">July 21, 2015</a>
+                                                                                </span>
+                                                                                <span class="post_info_item post_info_posted_by">by
+                                                                                    <a href="development.html" class="post_info_author">Kate Dillon (Development)</a>
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </article>
+                                                                    <article class="post_item with_thumb">
+                                                                        <div class="post_thumb">
+                                                                            <img alt="" src="images/2000x2000.png">
+                                                                        </div>
+                                                                        <div class="post_content">
+                                                                            <a name="target-toc-8"></a>
+                                                                            <h6 class="post_title">
+                                                                                <a href="masonry.html">Masonry Gallery</a>
+                                                                            </h6>
+                                                                            <div class="post_info">
+                                                                                <span class="post_info_item post_info_posted">
+                                                                                    <a href="masonry.html" class="post_info_date">July 21, 2015</a>
+                                                                                </span>
+                                                                                <span class="post_info_item post_info_posted_by">by
+                                                                                    <a href="development.html" class="post_info_author">Kate Dillon (Development)</a>
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </article>
+                                                                </aside>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="grid-item grid-item--width3 responsive_small ">
+                                                    <div class="sc_section bg2">
+                                                        <div class="sc_section_overlay pd30">
+                                                            <div class="sc_section_content">
+                                                                <a name="target-toc-9"></a>
+                                                                <h5 class="sc_title sc_title_regular fst9">Fiscal Year End</h5>
+                                                                <div id="islands_1" class="columns_wrap sc_columns columns_nofluid sc_columns_count_3">
+                                                                    <div class="column-2_3 sc_column_item span_2">
+                                                                        <ul class="sc_islands">
+                                                                            <li class="sc_islands_item sc_item_type_2 isl_5">
+                                                                                <div class="sc_item_value">
+                                                                                    <div class="value">Apr - June</div>
+                                                                                    <div class="line"></div>
+                                                                                    <div class="circle"></div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="sc_islands_item sc_item_type_1 isl_6">
+                                                                                <div class="sc_item_value">
+                                                                                    <div class="value">Jan - Mar</div>
+                                                                                    <div class="line"></div>
+                                                                                    <div class="circle"></div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="sc_islands_item sc_item_type_4 isl_3">
+                                                                                <div class="sc_item_value">
+                                                                                    <div class="value">Oct - Dec</div>
+                                                                                    <div class="line"></div>
+                                                                                    <div class="circle"></div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="sc_islands_item sc_item_type_3 isl_4">
+                                                                                <div class="sc_item_value">
+                                                                                    <div class="value">Jule - Sep</div>
+                                                                                    <div class="line"></div>
+                                                                                    <div class="circle"></div>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="column-1_3 sc_column_item after_span_2">
+                                                                        <a name="target-toc-10"></a>
+                                                                        <h6 class="sc_title sc_title_regular mgcu4">January &#8211; March:</h6>
+                                                                        <p class="sc_text mgcu5">Nunc luctus dui quis ligula placerat feugiat.</p>
+                                                                        <a name="target-toc-11"></a>
+                                                                        <h6 class="sc_title sc_title_regular">April &#8211; June:</h6>
+                                                                        <p class="sc_text mgcu5">Curabitur convallis lacus urna, eu ultrices mauris luctus nec libero dui, porttitor sit amet.</p>
+                                                                        <a name="target-toc-12"></a>
+                                                                        <h6 class="sc_title sc_title_regular">Jule &#8211; September:</h6>
+                                                                        <p class="sc_text mgcu6">Nullam quis turpis a nisl pulvinar dignissim.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="grid-item grid-item--width2">
+                                                    <div class="sc_section bg2">
+                                                        <div class="sc_section_overlay pd30">
+                                                            <div class="sc_section_content">
+                                                                <a name="target-toc-13"></a>
+                                                                <h5 class="sc_title sc_title_regular fst8">Team Skills</h5>
+                                                                <div class="sc_rocks_skills sc_rocks_count_5">
+                                                                    <div class="sc_rocks_inner">
+                                                                        <div class="sc_rocks_row">
+                                                                            <span class="sc_rocks_value">5478</span>
+                                                                            <div class="sc_rocks_progressbar">
+                                                                                <div class="sc_rocks_progress" data-process="88">
+                                                                                    <div class="sc_rocks_before"></div>
+                                                                                    <div class="sc_rocks_after"></div>
+                                                                                </div>
+                                                                                <div class="sc_rocks_foot"></div>
+                                                                                <div class="sc_rocks_shadow"></div>
+                                                                            </div>
+                                                                            <span class="sc_rocks_caption">L1</span>
+                                                                        </div>
+                                                                        <div class="sc_rocks_row">
+                                                                            <span class="sc_rocks_value">1056</span>
+                                                                            <div class="sc_rocks_progressbar">
+                                                                                <div class="sc_rocks_progress" data-process="17">
+                                                                                    <div class="sc_rocks_before"></div>
+                                                                                    <div class="sc_rocks_after"></div>
+                                                                                </div>
+                                                                                <div class="sc_rocks_foot"></div>
+                                                                                <div class="sc_rocks_shadow"></div>
+                                                                            </div>
+                                                                            <span class="sc_rocks_caption">L2</span>
+                                                                        </div>
+                                                                        <div class="sc_rocks_row">
+                                                                            <span class="sc_rocks_value">3568</span>
+                                                                            <div class="sc_rocks_progressbar">
+                                                                                <div class="sc_rocks_progress" data-process="57">
+                                                                                    <div class="sc_rocks_before"></div>
+                                                                                    <div class="sc_rocks_after"></div>
+                                                                                </div>
+                                                                                <div class="sc_rocks_foot"></div>
+                                                                                <div class="sc_rocks_shadow"></div>
+                                                                            </div>
+                                                                            <span class="sc_rocks_caption">L3</span>
+                                                                        </div>
+                                                                        <div class="sc_rocks_row">
+                                                                            <span class="sc_rocks_value">2354</span>
+                                                                            <div class="sc_rocks_progressbar">
+                                                                                <div class="sc_rocks_progress" data-process="38">
+                                                                                    <div class="sc_rocks_before"></div>
+                                                                                    <div class="sc_rocks_after"></div>
+                                                                                </div>
+                                                                                <div class="sc_rocks_foot"></div>
+                                                                                <div class="sc_rocks_shadow"></div>
+                                                                            </div>
+                                                                            <span class="sc_rocks_caption">L4</span>
+                                                                        </div>
+                                                                        <div class="sc_rocks_row">
+                                                                            <span class="sc_rocks_value">6231</span>
+                                                                            <div class="sc_rocks_progressbar">
+                                                                                <div class="sc_rocks_progress" data-process="100">
+                                                                                    <div class="sc_rocks_before"></div>
+                                                                                    <div class="sc_rocks_after"></div>
+                                                                                </div>
+                                                                                <div class="sc_rocks_foot"></div>
+                                                                                <div class="sc_rocks_shadow"></div>
+                                                                            </div>
+                                                                            <span class="sc_rocks_caption">L5</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="grid-item responsive_big">
+                                                    <div class="sc_section bg2">
+                                                        <div class="sc_section_overlay pd30">
+                                                            <div class="sc_section_content">
+                                                                <a name="target-toc-14"></a>
+                                                                <h5 class="sc_title sc_title_regular fst8">Alliance Statistics</h5>
+                                                                <div class="tw-chart-graph tw-animate tw-redraw with-list-desc" data-zero="false" data-labels="Label 1, Label 2, Label 3, Label 4, Label 5, " data-type="Curve" data-item-height="220" data-animation-delay="0" data-animation-offset="90%">
+                                                                    <ul class="data">
+                                                                        <li data-datas="69, 68, 70, 68, 69, 69" data-fill-color="#89e1ee" data-fill-text="2013"></li>
+                                                                        <li data-datas="66, 67, 67, 66, 67, 67" data-fill-color="#5cbece" data-fill-text="2014"></li>
+                                                                        <li data-datas="63, 65, 66, 65, 64, 65" data-fill-color="#34aabe" data-fill-text="2015"></li>
+                                                                    </ul>
+                                                                    <canvas></canvas>
+                                                                </div>
+                                                            </div>
+                                                        </div>      
+                                                    </div>
+                                                </div>
+                                                <div class="grid-item">
+                                                    <div class="sc_section bg2">
+                                                        <div class="sc_section_overlay pd30">
+                                                            <div class="sc_section_content">
+                                                                <div class="weblator-poll-container" data-poll-id="1">
+                                                                    <div class="weblator-poll-loading">Loading</div>
+                                                                    <div class="panel panel-default">
+                                                                        <div class="panel-heading">
+                                                                            <a name="target-toc-15"></a>
+                                                                            <h3 class="panel-title">Poll</h3>
+                                                                        </div>
+                                                                        <div class="panel-body weblator-poll-vote">
+                                                                            <div class="alert alert-success">Thank you for voting</div>
+                                                                            <div class="alert alert-warning">You have already voted on this poll!</div>
+                                                                            <div class="alert alert-danger">Please select an option!</div>
+                                                                            <ul>
+                                                                                <li>
+                                                                                    <input type="radio" data-index="0" name="weblator-chart-options" id="option-7" data-poll-id="1" value="7" />
+                                                                                    <label for="option-7">Option 1: Semper magna mauris</label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <input type="radio" data-index="1" name="weblator-chart-options" id="option-8" data-poll-id="1" value="8" />
+                                                                                    <label for="option-8">Option 2: Curabitur ex massa</label>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <input type="radio" data-index="2" name="weblator-chart-options" id="option-9" data-poll-id="1" value="9" />
+                                                                                    <label for="option-9">Option 3: Quisque aliquam consecte</label>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div class="panel-footer">
+                                                                            <div class="button-vote">
+                                                                                <button class="btn btn-default vote-button weblator-poll-submit">
+                                                                                    <i class="fa fa-spinner fa-spin vote-spin"></i> Vote
+                                                                                </button>
+                                                                            </div>
+                                                                            <div class="weblator-view-results">
+                                                                                <a href="#" class="weblator-view-poll btn btn-default">View Results</a>
+                                                                                <a href="#" class="weblator-hide-poll btn btn-default">Hide Results</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="width-control w400p">
+																		<ul data-font-size="12" id="legend-1" class="legend tl fst7 hideblock">
+																			<li class="title">
+																				<div class="box bg10"></div>
+																				<div class="weblator-label fst35">Option 1: Semper magna mauris</div>
+																			</li>
+																			<li class="title">
+																				<div class="box bg11"></div>
+																				<div class="weblator-label fst35">Option 2: Curabitur ex massa</div>
+																			</li>
+																			<li class="title">
+																				<div class="box bg12"></div>
+																				<div class="weblator-label fst35">Option 3: Quisque aliquam consecte</div>
+																			</li>
+																		</ul>
+																		<canvas data-width="400px" data-weblator-poll-id="1" id="weblator-chart-1" class="weblator-chart cublock41" height="141" width="282" data-chart='{!labels!:[!Option 1: Semper magna mauris!,!Option 2: Curabitur ex massa!,!Option 3: Quisque aliquam consecte!],!options!:{!segmentShowStroke!:1,!segmentStrokeColor!:!rgba(255,255,255,1)!,!segmentStrokeWidth!:2,!responsive!:true},!maxWidth!:!400!,!minWidth!:!400!,!showLegend!:!1!,!totals!:[!626!,!713!,!596!],!option_colours!:[!rgb(109, 204, 221)!,!rgb(139, 198, 63)!,!rgb(238, 57, 64)!],!styles!:[],!chart_type!:!3!}'></canvas>
+																	</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="grid-item">
+                                                    <div class="sc_section bg2">
+                                                        <div class="sc_section_overlay pd30">
+                                                            <div class="sc_section_content">
+                                                                <a name="target-toc-16"></a>
+                                                                <h5 class="sc_title sc_title_regular fst8">Accordion</h5>
+                                                                <div class="sc_accordion sc_accordion_style_1" data-active="0">
+                                                                    <div class="sc_accordion_item odd first">
+                                                                        <div class="sc_accordion_title">Accordion 1
+                                                                            <span class="sc_accordion_icon sc_accordion_icon_closed icon-plus"></span>
+                                                                            <span class="sc_accordion_icon sc_accordion_icon_opened icon-minus"></span>
+                                                                        </div>
+                                                                        <div class="sc_accordion_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                                                                    </div>
+                                                                    <div class="sc_accordion_item even">
+                                                                        <div class="sc_accordion_title">Accordion 2
+                                                                            <span class="sc_accordion_icon sc_accordion_icon_closed icon-plus"></span>
+                                                                            <span class="sc_accordion_icon sc_accordion_icon_opened icon-minus"></span>
+                                                                        </div>
+                                                                        <div class="sc_accordion_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                                                                    </div>
+                                                                    <div class="sc_accordion_item odd">
+                                                                        <div class="sc_accordion_title">Accordion 3
+                                                                            <span class="sc_accordion_icon sc_accordion_icon_closed icon-plus"></span>
+                                                                            <span class="sc_accordion_icon sc_accordion_icon_opened icon-minus"></span>
+                                                                        </div>
+                                                                        <div class="sc_accordion_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="grid-item grid-item--width2">
+                                                    <div class="sc_section bg2">
+                                                        <div class="sc_section_overlay pd15">
+                                                            <div class="sc_section_content">
+                                                                <a name="target-toc-17"></a>
+                                                                <h5 class="sc_title sc_title_regular fst10">User Project List</h5>
+                                                                <div id="table_1" class="sc_table mgcu7">
+                                                                    <table>
+                                                                        <thead>
+                                                                        <tr>
+                                                                            <th colspan="4">schedule</th>
+                                                                        </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                        <tr>
+                                                                            <td>Project</td>
+                                                                            <td>start date</td>
+                                                                            <td>deadline</td>
+                                                                            <td>status</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>#14567</td>
+                                                                            <td>Feb 24, 2015</td>
+                                                                            <td>Feb 24, 2015</td>
+                                                                            <td><span class="sc_text padding cl_done">Done</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>#14567</td>
+                                                                            <td>Feb 24, 2015</td>
+                                                                            <td>Feb 24, 2015</td>
+                                                                            <td><span class="sc_text padding cl_fail">Failed</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>#14567</td>
+                                                                            <td>Feb 24, 2015</td>
+                                                                            <td>Feb 24, 2015</td>
+                                                                            <td><span class="sc_text padding cl_prog">In Process</span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>#14567</td>
+                                                                            <td>Feb 24, 2015</td>
+                                                                            <td>Feb 24, 2015</td>
+                                                                            <td><span class="sc_text padding cl_done">Done</span></td>
+                                                                        </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
+                    <section class="related_wrap related_wrap_empty"></section>
+                </div>
+            </div>
+        </div>
+        <div class="copyright_wrap">
+            <div class="content_wrap">
+                <p>© 2017 All Rights Reserved.
+                    <a href="#">Terms of use</a> and
+                    <a href="#">Privacy Policy</a>
+                </p>
+            </div>
+        </div>
+        <a href="#" class="scroll_to_top icon-angle-up-1" title="Scroll to top"></a>
+    </div>
+</div>
+<div class="custom_html_section">
+</div>
+
+<script type='text/javascript' src='js/vendor/jquery/jquery.js'></script>
+<script type='text/javascript' src='js/vendor/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='js/custom/custom.js'></script>
+<script type='text/javascript' src='js/vendor/jquery/jquery.my_add_function.js'></script>
+<script type='text/javascript' src='http://use.fontawesome.com/fcc8474e79.js'></script>
+<script type='text/javascript' src='js/custom/excanvas.js'></script>
+<script type='text/javascript' src='js/vendor/ui/core.min.js'></script>
+<script type='text/javascript' src='js/vendor/ui/widget.min.js'></script>
+<script type='text/javascript' src='js/vendor/booked/datepicker.min.js'></script>
+<script type='text/javascript' src='js/vendor/bp/foundation.min.js'></script>
+<script type='text/javascript' src='js/custom/cptfunctions.js'></script>
+<script type='text/javascript' src='js/custom/jquery.nestable.js'></script>
+<script type='text/javascript' src='js/custom/cptinnerfun.js'></script>
+<script type='text/javascript' src='js/vendor/chart/chartjs_new.js'></script>
+<script type='text/javascript' src='js/custom/legend.js'></script>
+<script type='text/javascript' src='js/custom/poll.js'></script>
+<script type='text/javascript' src='js/custom/poll-init.js'></script>
+<script type='text/javascript' src='js/custom/responsive.init.js'></script>
+<script type='text/javascript' src='js/custom/core.utils.js'></script>
+<script type='text/javascript' src='js/custom/core.init.js'></script>
+<script type='text/javascript' src='js/custom/embed.min.js'></script>
+<script type='text/javascript' src='js/custom/core.messages.js'></script>
+<script type='text/javascript' src='js/custom/shortcodes.js'></script>
+<script type='text/javascript' src='js/vendor/comp/comp_front.min.js'></script>
+<script type='text/javascript' src='js/vendor/grid.js'></script>
+<script type='text/javascript' src='js/vendor/chart/chart.min.js'></script>
+<script type='text/javascript' src='js/vendor/chart/Graph.js'></script>
+<script type='text/javascript' src='js/vendor/ui/accordion.min.js'></script>
+
+</body>
+
+</html>
