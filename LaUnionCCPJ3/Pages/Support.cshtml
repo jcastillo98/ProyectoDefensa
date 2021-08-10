@@ -1,0 +1,493 @@
+﻿@page
+@model LaUnionCCPJ3.Pages.SupportModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <title>Support &#8211; Alliance</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Love+Ya+Like+A+Sister|Montserrat:100,200,300,400,500,600,700,800,900|Open+Sans:300,300i,400,400i,600,700,700i,800|Raleway:100,200,300,400,500,600,700,800,900|Roboto:100,100i,300,300i,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/public.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/fontello/css/fontello.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/shortcodes.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/core.animation.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/skin.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/custom-style.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/comp/comp.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/notie.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/core.messages.css' type='text/css' media='all' />
+
+</head>
+
+<body class="page body_style_wide body_filled article_style_stretch top_panel_style_dark top_panel_opacity_solid top_panel_over sidebar_hide responsive_menu vc_responsive no-js">
+
+    <div class="body_wrap">
+        
+            <header class="top_panel_wrap">
+                <div class="menu_user_wrap">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/Logo.png" class="logo_main" alt="">
+                        </a>
+                    </div>
+                    <div class="menu_user_area menu_user_right menu_user_nav_area m_top">
+                        <ul id="menu_user" class="menu_user_nav">
+                            <li class="menu_user_register">
+                                <a href="#popup_registration" class="popup_link popup_register_link">Registrarse</a>
+                                <div id="popup_registration" class="popup_wrap popup_registration bg_tint_light">
+                                    <a href="#" class="popup_close"></a>
+                                    <div class="form_wrap">
+                                        <form name="registration_form" method="post" class="popup_form registration_form">
+                                            <input type="hidden" name="redirect_to" value="index.html" />
+                                            <div class="form_left">
+                                                <div class="popup_form_field login_field iconed_field">
+                                                    <input type="text" id="registration_username" name="registration_username" value="" placeholder="Nombre de Usuario">
+                                                </div>
+                                                <div class="popup_form_field email_field iconed_field">
+                                                    <input type="text" id="registration_email" name="registration_email" value="" placeholder="Correo Electronico">
+                                                </div>
+                                                <div class="popup_form_field agree_field">
+                                                    <input type="checkbox" value="agree" id="registration_agree" name="registration_agree">
+                                                    <label for="registration_agree">De acuerdo con los</label>
+                                                    <a href="#">Terminos &amp; Condiciones</a>
+                                                </div>
+                                                <div class="popup_form_field submit_field">
+                                                    <input type="submit" class="submit_button" value="Registrarme">
+                                                </div>
+                                            </div>
+                                            <div class="form_right">
+                                                <div class="popup_form_field password_field iconed_field">
+                                                    <input type="password" id="registration_pwd" name="registration_pwd" value="" placeholder="Contraseña">
+                                                </div>
+                                                <div class="popup_form_field password_field iconed_field">
+                                                    <input type="password" id="registration_pwd2" name="registration_pwd2" value="" placeholder="Confirmar Contraseña">
+                                                </div>
+                                                <div class="popup_form_field description_field">Contraseña de minimo 6 caracteres</div>
+                                            </div>
+                                        </form>
+                                        <div class="result message_block"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu_user_login">
+                                <a href="#popup_login" class="popup_link popup_login_link">Iniciar Sesion</a>
+                                <div id="popup_login" class="popup_wrap popup_login bg_tint_light popup_half">
+                                    <a href="#" class="popup_close"></a>
+                                    <div class="form_wrap">
+                                        <div>
+                                            <form action="#" method="post" name="login_form" class="popup_form login_form">
+                                                <input type="hidden" name="redirect_to" value="#">
+                                                <div class="popup_form_field login_field iconed_field icon-user-2">
+                                                    <input type="text" id="log" name="log" value="" placeholder="Correo Electronico">
+                                                </div>
+                                                <div class="popup_form_field password_field iconed_field icon-lock-1">
+                                                    <input type="password" id="password" name="pwd" value="" placeholder="Contraseña">
+                                                </div>
+                                                <div class="popup_form_field remember_field">
+                                                    <a href="#" class="forgot_password">Olvide mi Contraseña</a>
+                                                    <input type="checkbox" value="forever" id="rememberme" name="rememberme">
+                                                    <label for="rememberme">Recuerdame</label>
+                                                </div>
+                                                <div class="popup_form_field submit_field">
+                                                    <input type="submit" class="submit_button" value="Iniciar Sesion">
+                                                </div>
+                                                <div class="result message_block"></div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="search_wrap search_style_regular search_ajax" title="Open/close search form">
+                            <a href="#" class="search_icon icon-23"></a>
+                            <div class="search_form_wrap">
+                                <form role="search" method="get" class="search_form" action="#">
+                                    <button type="submit" class="search_submit icon-23" title="Start search"></button>
+                                    <input type="text" class="search_field" placeholder="" value="" name="s" title="" />
+                                </form>
+                            </div>
+                            <div class="search_results widget_area bg_tint_light">
+                                <a class="search_results_close icon-cancel"></a>
+                                <div class="search_results_content"></div>
+                            </div>
+                        </div>
+                        <div class="menu_button show_menu">Show Menu</div>
+                    </div>
+                </div>
+            </header>
+            <aside class="menu_main_wrap">
+                <nav role="navigation" class="menu_main_nav_area">
+                    <ul id="menu_main" class="menu_main_nav">
+                        <li class="icon-3 menu-item menu-item-has-children">
+                            <a>Dashboard</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="index.html">Style 1</a></li>
+                                <li class="menu-item"><a href="home-2.html">Style 2</a></li>
+                                <li class="menu-item"><a href="home-3.html">Style 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-22 menu-item menu-item-has-children">
+                            <a>Color Schemes</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="scheme-1.html">Color Scheme 1</a></li>
+                                <li class="menu-item"><a href="scheme-2.html">Color Scheme 2</a></li>
+                                <li class="menu-item"><a href="scheme-3.html">Color Scheme 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-5 menu-item menu-item-has-children">
+                            <a>Company Stuff</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="ceo.html">CEO</a></li>
+                                <li class="menu-item"><a href="leaders.html">Team Leaders</a></li>
+                                <li class="menu-item"><a href="team.html">Department</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-7 menu-item"><a href="post-formats.html">Blog streampage</a></li>
+                        <li class="icon-17 menu-item menu-item-has-children">
+                            <a>Education</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="trainings.html">Trainings</a></li>
+                                <li class="menu-item"><a href="tests.html">Tests and Quizzes</a></li>
+                                <li class="menu-item"><a href="tutorials.html">Tutorials</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-21 menu-item menu-item-has-children">
+                            <a>Career</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="vacancies.html">Vacancies</a></li>
+                                <li class="menu-item"><a href="resumes.html">Resumes</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-8 menu-item menu-item-has-children">
+                            <a>Community</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="forums.html">Forums</a></li>
+                                <li class="menu-item"><a href="single-topic.html">Single Topic</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-2 menu-item menu-item-has-children">
+                            <a>BuddyPress</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="activity.html">Activity</a></li>
+                                <li class="menu-item"><a href="groups.html">Groups</a></li>
+                                <li class="menu-item"><a href="members.html">Members</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-9 menu-item menu-item-has-children">
+                            <a>File Storage</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="development.html">Development</a></li>
+                                <li class="menu-item"><a href="marketing.html">Marketing</a></li>
+                                <li class="menu-item"><a href="accounting.html">Accounting</a></li>
+                                <li class="menu-item"><a href="resources.html">Human Resources</a></li>
+                                <li class="menu-item"><a href="supporter.html">Support</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-10 menu-item menu-item-has-children">
+                            <a>Photo Gallery</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="events.html">Events list</a></li>
+                                <li class="menu-item"><a href="cobbles.html">Cobbles Gallery</a></li>
+                                <li class="menu-item"><a href="grid.html">Grid Gallery</a></li>
+                                <li class="menu-item"><a href="margin-grid.html">Margin Grid Gallery</a></li>
+                                <li class="menu-item"><a href="masonry.html">Masonry Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-13 menu-item current-menu-ancestor menu-item-has-children">
+                            <a>Theme Elements</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="shortcodes.html">Shortcodes</a></li>
+                                <li class="menu-item"><a href="typography.html">Typography</a></li>
+                                <li class="menu-item"><a href="infographic.html">Infographic</a></li>
+                                <li class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children">
+                                    <a>Pages</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item"><a href="single-post.html">Blog Post</a></li>
+                                        <li class="menu-item"><a href="single-event.html">Event Page</a></li>
+                                        <li class="menu-item"><a href="single-training.html">Training Page</a></li>
+                                        <li class="menu-item"><a href="single-test.html">Quiz Page</a></li>
+                                        <li class="menu-item"><a href="single-team.html">Team Member</a></li>
+                                        <li class="menu-item"><a href="about.html">About Company</a></li>
+                                        <li class="menu-item"><a href="contacts.html">Contacts</a></li>
+                                        <li class="menu-item current-menu-item"><a href="support.html">Support</a></li>
+                                        <li class="menu-item"><a href="faq.html">FAQ</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <div class="page_top_wrap page_top_title page_top_breadcrumbs">
+                <div class="content_wrap">
+                    <div class="breadcrumbs">
+                        <a class="breadcrumbs_item home" href="index.html">Home</a>
+                        <span class="breadcrumbs_delimiter"> / </span>
+                        <span class="breadcrumbs_item current">Support</span>
+                    </div>
+                    <h5 class="page_title">
+                        <span class="page_icon icon-23"></span>Support
+                    </h5>
+                </div>
+            </div>
+            <div class="page_content_wrap">
+                <div class="content_wrap">
+                    <div class="content">
+                        <article class="post_item post_item_single post_featured_left post_format_standard page hentry">
+                            <section class="post_content">
+                                <div class="sc_reviews alignright"></div>
+                                <div class="vc_row wpb_row vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="sc_section cublock3">
+                                                    <div class="sc_section_overlay pd27">
+                                                        <div class="sc_section_content">
+                                                            <a name="target-toc-0"></a>
+                                                            <h2 class="sc_title sc_title_regular sc_align_center fst34">Support Policy</h2>
+                                                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
+                                                                <div class="column-1_2 sc_column_item">
+                                                                    <ul class="sc_list sc_list_style_ul">
+                                                                        <li class="sc_list_item cublock30">
+
+                                                                            <span>To get a <b>pre-purchase advice</b>, you may post in the theme’s forum</span>
+                                                                        </li>
+
+                                                                        <li class="sc_list_item cublock30">
+
+                                                                            <span>To get a response more promptly, you are recommended to use our <b>Ticket-system</b></span>
+                                                                        </li>
+
+                                                                        <li class="sc_list_item cublock31">
+
+                                                                            <span>We try to answer your questions within <b>1-10 hours</b>. However, if any delay occurs it doesn’t mean that we forgot about you. Some of the issues require testing and analyzing, so we could help you more profoundly.</span>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="column-1_2 sc_column_item">
+                                                                    <ul class="sc_list sc_list_style_ul">
+                                                                        <li class="sc_list_item cublock30">
+
+                                                                            <span><b>Please, note!</b> We do not support queries if you do not have a purchase code.</span>
+                                                                        </li>
+
+                                                                        <li class="sc_list_item cublock31">
+
+                                                                            <span>Item support <b>does not include</b>:<br /></span>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                    <ul class="sc_list sc_list_style_iconed mgcu39">
+                                                                        <li class="sc_list_item cublock31">
+
+                                                                            <span>
+                                                                                <span class="sc_list_icon icon-minus-1"></span>Customization and installation services
+                                                                            </span>
+                                                                        </li>
+
+                                                                        <li class="sc_list_item cublock31">
+
+                                                                            <span>
+                                                                                <span class="sc_list_icon icon-minus-1"></span>Support for third party software and plug-ins<br />
+                                                                            </span>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc_section support cublock3">
+                                                    <div class="sc_section_overlay pd27">
+                                                        <div class="sc_section_content">
+                                                            <a name="target-toc-1"></a>
+                                                            <h2 class="sc_title sc_title_regular sc_align_center fst34">How to use our Support System</h2>
+                                                            <p class="sc_text cublock32">ThemeRex technical support is always there to assist their users with all their technical questions regarding ThemeRex products.</p>
+                                                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
+                                                                <div class="column-1_2 sc_column_item">
+                                                                    <figure class="sc_image sc_image_shape_square mgcu40">
+                                                                        <img src="images/100.jpg" alt="" />
+                                                                    </figure>
+                                                                </div>
+                                                                <div class="column-1_2 sc_column_item">
+                                                                    <ol class="sc_list sc_list_style_ol">
+                                                                        <li class="sc_list_item cublock33">
+                                                                            <span>In the <b>‘Item Details’</b> there is a clickable banner <b>“Support Sys”</b> using which you are getting into tickets.</span>
+                                                                        </li>
+                                                                        <li class="sc_list_item cublock33">
+                                                                            <span>Or you may simply use this link <a href="#"><b><a href="http://themerex.ticksy.com">themerex.ticksy.com</a></b></a></span>
+                                                                        </li>
+                                                                        <li class="sc_list_item cublock33">
+                                                                            <span>Enter your <b>purchase key</b> and register in the system</span>
+                                                                        </li>
+                                                                        <li class="sc_list_item cublock33">
+                                                                            <span>To avoid confusing, please use for Support System <b>your own ThemeForest login</b></span>
+                                                                        </li>
+                                                                        <li class="sc_list_item cublock31">
+                                                                            <span>Fill out the <b>ticket form</b></span>
+                                                                        </li>
+                                                                    </ol>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc_section support cublock34">
+                                                    <div class="sc_section_overlay pd27">
+                                                        <div class="sc_section_content">
+                                                            <a name="target-toc-2"></a>
+                                                            <h2 class="sc_title sc_title_regular sc_align_center fst34">How to find a purchase key</h2>
+                                                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
+                                                                <div class="column-1_2 sc_column_item">
+                                                                    <figure class="sc_image alignright sc_image_shape_square mgcu41">
+                                                                        <img src="images/101.png" alt="" />
+                                                                    </figure>
+                                                                </div>
+                                                                <div class="column-1_2 sc_column_item">
+                                                                    <ol class="sc_list sc_list_style_ol mgcu4">
+                                                                        <li class="sc_list_item cublock33">
+                                                                            <span>Open the <b>‘downloads’</b> tab in your account</span>
+                                                                        </li>
+                                                                        <li class="sc_list_item cublock33">
+                                                                            <span><b>Find our theme</b> in the list of products</span>
+                                                                        </li>
+                                                                        <li class="sc_list_item cublock33">
+                                                                            <span>Click <b>‘download’</b> button, and in the drop down menu select<br /><b>“license sertificate &#038; purchase code”</b></span>
+                                                                        </li>
+                                                                    </ol>
+                                                                    <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_large alignleft cublock35">Create Ticket</a>
+                                                                    <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_large alignleft cublock35">Theme Forum</a>
+                                                                    <a href="doc" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_large alignleft cublock36">Theme Documentation</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc_section cublock34">
+                                                    <div class="sc_section_overlay pd27">
+                                                        <div class="sc_section_content">
+                                                            <a name="target-toc-3"></a>
+                                                            <h2 class="sc_title sc_title_regular sc_align_center cublock37">
+                                                                <strong>Hosting</strong>
+                                                            </h2>
+                                                            <a name="target-toc-4"></a>
+                                                            <h4 class="sc_title sc_title_regular sc_align_center cublock38">Recommended hostings:</h4>
+                                                            <div class="wpb_text_column wpb_content_element vc_custom_295">
+                                                                <div class="wpb_wrapper">
+                                                                    <p>
+                                                                        ThemeREX offers only the best products and services and recommends them to their customers. One of the most important services is HOSTING.
+                                                                        Unlike any cheap hostings that usually have limited resources which causes many problems to the site owners, quality hosting
+                                                                        gives a client a fair amount of resources sufficient for any website and any task. By using quality hosting you can rest assured that your site will work smoothly.
+                                                                        If you happen to use such hosting with limited resources (e.g. GoDaddy!), you may experience issues with “one-click install” feature.
+                                                                        In that case, you are always welcome to contact our support team to get qualified help.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
+                                                                <div class="column-1_2 sc_column_item centext">
+                                                                    <figure class="sc_image sc_image_shape_square">
+                                                                        <img src="images/inmotion.png" alt="" />
+                                                                    </figure>
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <p>
+                                                                                <a href="http://www.inmotionhosting.com">http://www.inmotionhosting.com</a>
+                                                                            </p>
+                                                                            <p>Get more than <strong>30% discount</strong> on a hosting plan.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="column-1_2 sc_column_item centext">
+                                                                    <figure class="sc_image sc_image_shape_square">
+                                                                        <img src="images/mediatemple.png" alt="" />
+                                                                    </figure>
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <p>
+                                                                                <a href="http://mediatemple.net">http://mediatemple.net</a>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row wpb_row vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div class="sc_section cublock39">
+                                                    <div class="sc_section_overlay pd27">
+                                                        <div class="sc_section_content">
+                                                            <p class="sc_text cublock40">
+                                                                IF YOU HAVE COMPLAINTS ABOUT THE WORK OF OUR SUPPORT STAFF,
+                                                                <br /> PLEASE INFORM US ABOUT YOUR ISSUE VIA <font color="#2a2f43">WPSPACETEMPLATES@GMAIL.COM</font>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </article>
+                        <section class="related_wrap related_wrap_empty"></section>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright_wrap">
+                <div class="content_wrap">
+                    <p>
+                        © 2017 All Rights Reserved.
+                        <a href="#">Terms of use</a> and
+                        <a href="#">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+            <a href="#" class="scroll_to_top icon-angle-up-1" title="Scroll to top"></a>
+        </div>
+
+
+    <div class="custom_html_section">
+    </div>
+
+    <script type='text/javascript' src='js/vendor/jquery/jquery.js'></script>
+    <script type='text/javascript' src='js/vendor/jquery/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='js/custom/custom.js'></script>
+    <script type='text/javascript' src='js/vendor/jquery/jquery.my_add_function.js'></script>
+    <script type='text/javascript' src='http://use.fontawesome.com/fcc8474e79.js'></script>
+    <script type='text/javascript' src='js/custom/excanvas.js'></script>
+    <script type='text/javascript' src='js/vendor/booked/datepicker.min.js'></script>
+    <script type='text/javascript' src='js/vendor/bp/foundation.min.js'></script>
+    <script type='text/javascript' src='js/custom/cptfunctions.js'></script>
+    <script type='text/javascript' src='js/custom/jquery.nestable.js'></script>
+    <script type='text/javascript' src='js/custom/cptinnerfun.js'></script>
+    <script type='text/javascript' src='js/vendor/chart/chartjs_new.js'></script>
+    <script type='text/javascript' src='js/custom/legend.js'></script>
+    <script type='text/javascript' src='js/custom/responsive.init.js'></script>
+    <script type='text/javascript' src='js/custom/core.utils.js'></script>
+    <script type='text/javascript' src='js/custom/core.init.js'></script>
+    <script type='text/javascript' src='js/custom/embed.min.js'></script>
+    <script type='text/javascript' src='js/custom/core.messages.js'></script>
+    <script type='text/javascript' src='js/custom/shortcodes.js'></script>
+    <script type='text/javascript' src='js/vendor/comp/comp_front.min.js'></script>
+
+</body>
+
+</html>

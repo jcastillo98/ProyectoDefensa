@@ -1,0 +1,418 @@
+﻿@page
+@model LaUnionCCPJ3.Pages.DevelopmentModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <title>BuddyDrive &#8211; Kate Dillon (Development) &#8211; Alliance</title>
+    <link rel='stylesheet' href='js/vendor/bp/bbpress.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/bp/buddypress.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/bp.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Love+Ya+Like+A+Sister|Montserrat:100,200,300,400,500,600,700,800,900|Open+Sans:300,300i,400,400i,600,700,700i,800|Raleway:100,200,300,400,500,600,700,800,900|Roboto:100,100i,300,300i,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/bp/tocstyle.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/bp/bps_buttonstyle.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/bp/bps_manage_subs_page_style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/bp/bps_whats_new_page_style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/bp/cptstyle.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/public.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/fontello/css/fontello.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/shortcodes.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/core.animation.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/bp/bbpress-style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/bp/buddypress-style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/skin.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/custom-style.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/notie.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/core.messages.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/dashicons.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/bp/buddydrive-app.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='js/vendor/bp/buddydrive.css' type='text/css' media='all' />
+</head>
+
+<body class="bp-user buddydrive files buddypress bbp-user-page single singular bbpress page page-parent body_style_wide body_filled article_style_stretch top_panel_style_dark top_panel_opacity_solid top_panel_over sidebar_hide responsive_menu vc_responsive no-js">
+
+    <div class="body_wrap">
+        <div class="page_wrap">
+            <header class="top_panel_wrap">
+                <div class="menu_user_wrap">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/Logo.png" class="logo_main" alt="">
+                        </a>
+                    </div>
+                    <div class="menu_user_area menu_user_right menu_user_nav_area m_top">
+                        <ul id="menu_user" class="menu_user_nav">
+                            <li class="menu_user_register">
+                                <a href="#popup_registration" class="popup_link popup_register_link">Registrarse</a>
+                                <div id="popup_registration" class="popup_wrap popup_registration bg_tint_light">
+                                    <a href="#" class="popup_close"></a>
+                                    <div class="form_wrap">
+                                        <form name="registration_form" method="post" class="popup_form registration_form">
+                                            <input type="hidden" name="redirect_to" value="index.html" />
+                                            <div class="form_left">
+                                                <div class="popup_form_field login_field iconed_field">
+                                                    <input type="text" id="registration_username" name="registration_username" value="" placeholder="Nombre de Usuario">
+                                                </div>
+                                                <div class="popup_form_field email_field iconed_field">
+                                                    <input type="text" id="registration_email" name="registration_email" value="" placeholder="Correo Electronico">
+                                                </div>
+                                                <div class="popup_form_field agree_field">
+                                                    <input type="checkbox" value="agree" id="registration_agree" name="registration_agree">
+                                                    <label for="registration_agree">De acuerdo con los</label>
+                                                    <a href="#">Terminos &amp; Condiciones</a>
+                                                </div>
+                                                <div class="popup_form_field submit_field">
+                                                    <input type="submit" class="submit_button" value="Registrarme">
+                                                </div>
+                                            </div>
+                                            <div class="form_right">
+                                                <div class="popup_form_field password_field iconed_field">
+                                                    <input type="password" id="registration_pwd" name="registration_pwd" value="" placeholder="Contraseña">
+                                                </div>
+                                                <div class="popup_form_field password_field iconed_field">
+                                                    <input type="password" id="registration_pwd2" name="registration_pwd2" value="" placeholder="Confirmar Contraseña">
+                                                </div>
+                                                <div class="popup_form_field description_field">Contraseña de minimo 6 caracteres</div>
+                                            </div>
+                                        </form>
+                                        <div class="result message_block"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu_user_login">
+                                <a href="#popup_login" class="popup_link popup_login_link">Iniciar Sesion</a>
+                                <div id="popup_login" class="popup_wrap popup_login bg_tint_light popup_half">
+                                    <a href="#" class="popup_close"></a>
+                                    <div class="form_wrap">
+                                        <div>
+                                            <form action="#" method="post" name="login_form" class="popup_form login_form">
+                                                <input type="hidden" name="redirect_to" value="#">
+                                                <div class="popup_form_field login_field iconed_field icon-user-2">
+                                                    <input type="text" id="log" name="log" value="" placeholder="Correo Electronico">
+                                                </div>
+                                                <div class="popup_form_field password_field iconed_field icon-lock-1">
+                                                    <input type="password" id="password" name="pwd" value="" placeholder="Contraseña">
+                                                </div>
+                                                <div class="popup_form_field remember_field">
+                                                    <a href="#" class="forgot_password">Olvide mi Contraseña</a>
+                                                    <input type="checkbox" value="forever" id="rememberme" name="rememberme">
+                                                    <label for="rememberme">Recuerdame</label>
+                                                </div>
+                                                <div class="popup_form_field submit_field">
+                                                    <input type="submit" class="submit_button" value="Iniciar Sesion">
+                                                </div>
+                                                <div class="result message_block"></div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="search_wrap search_style_regular search_ajax" title="Open/close search form">
+                            <a href="#" class="search_icon icon-23"></a>
+                            <div class="search_form_wrap">
+                                <form role="search" method="get" class="search_form" action="#">
+                                    <button type="submit" class="search_submit icon-23" title="Start search"></button>
+                                    <input type="text" class="search_field" placeholder="" value="" name="s" title="" />
+                                </form>
+                            </div>
+                            <div class="search_results widget_area bg_tint_light">
+                                <a class="search_results_close icon-cancel"></a>
+                                <div class="search_results_content"></div>
+                            </div>
+                        </div>
+                        <div class="menu_button show_menu">Show Menu</div>
+                    </div>
+                </div>
+            </header>
+            <aside class="menu_main_wrap">
+                <nav role="navigation" class="menu_main_nav_area">
+                    <ul id="menu_main" class="menu_main_nav">
+                        <li class="icon-3 menu-item menu-item-has-children">
+                            <a>Dashboard</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="index.html">Style 1</a></li>
+                                <li class="menu-item"><a href="home-2.html">Style 2</a></li>
+                                <li class="menu-item"><a href="home-3.html">Style 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-22 menu-item menu-item-has-children">
+                            <a>Color Schemes</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="scheme-1.html">Color Scheme 1</a></li>
+                                <li class="menu-item"><a href="scheme-2.html">Color Scheme 2</a></li>
+                                <li class="menu-item"><a href="scheme-3.html">Color Scheme 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-5 menu-item menu-item-has-children">
+                            <a>Company Stuff</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="ceo.html">CEO</a></li>
+                                <li class="menu-item"><a href="leaders.html">Team Leaders</a></li>
+                                <li class="menu-item"><a href="team.html">Department</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-7 menu-item"><a href="post-formats.html">Blog streampage</a></li>
+                        <li class="icon-17 menu-item menu-item-has-children">
+                            <a>Education</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="trainings.html">Trainings</a></li>
+                                <li class="menu-item"><a href="tests.html">Tests and Quizzes</a></li>
+                                <li class="menu-item"><a href="tutorials.html">Tutorials</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-21 menu-item menu-item-has-children">
+                            <a>Career</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="vacancies.html">Vacancies</a></li>
+                                <li class="menu-item"><a href="resumes.html">Resumes</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-8 menu-item menu-item-has-children">
+                            <a>Community</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="forums.html">Forums</a></li>
+                                <li class="menu-item"><a href="single-topic.html">Single Topic</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-2 menu-item menu-item-has-children">
+                            <a>BuddyPress</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="activity.html">Activity</a></li>
+                                <li class="menu-item"><a href="groups.html">Groups</a></li>
+                                <li class="menu-item "><a href="members.html">Members</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-9 menu-item current-menu-ancestor current-menu-parent menu-item-has-children">
+                            <a>File Storage</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item current-menu-item"><a href="development.html">Development</a></li>
+                                <li class="menu-item"><a href="marketing.html">Marketing</a></li>
+                                <li class="menu-item"><a href="accounting.html">Accounting</a></li>
+                                <li class="menu-item"><a href="resources.html">Human Resources</a></li>
+                                <li class="menu-item"><a href="supporter.html">Support</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-10 menu-item menu-item-has-children">
+                            <a>Photo Gallery</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="events.html">Events list</a></li>
+                                <li class="menu-item"><a href="cobbles.html">Cobbles Gallery</a></li>
+                                <li class="menu-item"><a href="grid.html">Grid Gallery</a></li>
+                                <li class="menu-item"><a href="margin-grid.html">Margin Grid Gallery</a></li>
+                                <li class="menu-item"><a href="masonry.html">Masonry Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li class="icon-13 menu-item menu-item-has-children">
+                            <a>Theme Elements</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="shortcodes.html">Shortcodes</a></li>
+                                <li class="menu-item"><a href="typography.html">Typography</a></li>
+                                <li class="menu-item"><a href="infographic.html">Infographic</a></li>
+                                <li class="menu-item menu-item-has-children">
+                                    <a>Pages</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item"><a href="single-post.html">Blog Post</a></li>
+                                        <li class="menu-item"><a href="single-event.html">Event Page</a></li>
+                                        <li class="menu-item"><a href="single-training.html">Training Page</a></li>
+                                        <li class="menu-item"><a href="single-test.html">Quiz Page</a></li>
+                                        <li class="menu-item"><a href="single-team.html">Team Member</a></li>
+                                        <li class="menu-item"><a href="about.html">About Company</a></li>
+                                        <li class="menu-item"><a href="contacts.html">Contacts</a></li>
+                                        <li class="menu-item"><a href="support.html">Support</a></li>
+                                        <li class="menu-item"><a href="faq.html">FAQ</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <div class="page_content_wrap">
+                <div class="content_wrap">
+                    <div class="content">
+                        <article class="bp_members type-bp_members post_item post_item_single post_featured_left post_format_standard page hentry">
+                            <h2 class="post_title entry-title">Kate Dillon (Development)</h2>
+                            <section class="post_content">
+                                <div id="buddypress">
+                                    <div id="item-header" role="complementary">
+                                        <div id="cover-image-container">
+                                            <a id="header-cover-image" href="activity.html"></a>
+                                            <div id="item-header-cover-image">
+                                                <div id="item-header-avatar">
+                                                    <a href="activity.html">
+                                                        <img src="images/2000x2000.png" class="avatar user-1-avatar avatar-150 photo" width="150" height="150" alt="" />
+                                                    </a>
+                                                </div>
+                                                <div id="item-header-content">
+                                                    <a name="target-toc-0"></a>
+                                                  @*  <h2 class="user-nicename">@admin</h2>*@
+                                                    <div id="item-buttons"></div>
+                                                    <span class="activity">active 3 days, 18 hours ago</span>
+                                                    <div id="item-meta">
+                                                        <div id="latest-update"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="item-nav">
+                                        <div class="item-list-tabs no-ajax" id="object-nav" role="navigation">
+                                            <ul>
+                                                <li id="activity-personal-li">
+                                                    <a id="user-activity" href="activity.html">Activity</a>
+                                                </li>
+                                                <li id="groups-personal-li">
+                                                    <a id="user-groups" href="groups.html">
+                                                        Groups
+                                                        <span class="count">1</span>
+                                                    </a>
+                                                </li>
+                                                <li id="buddydrive-personal-li" class="current selected">
+                                                    <a id="user-buddydrive" href="development.html">BuddyDrive</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div id="item-body">
+                                        <div id="buddydrive-main">
+                                            <div>
+                                                <div id="buddydrive-uploader" class="buddydrive-hide"></div>
+                                                <div id="buddydrive-actions-form" class="buddydrive-hide"></div>
+                                                <div id="buddydrive-status"></div>
+                                                <ul id="buddydrive-browser">
+                                                    <li class="buddydrive-item not-bulk-editable">
+                                                        <div class="buddydrive-icon">
+                                                            <a href="images/exex11.pdf">
+                                                                <img src="images/text.png" width="48px">
+                                                            </a>
+                                                        </div>
+                                                        <div class="buddydrive-content">
+                                                            <div class="buddydrive-title">
+                                                                <span class="buddydrive-name">
+                                                                    <a href="images/exex11.pdf">Example</a>
+                                                                </span>
+                                                                <span class="icon-privacy public"></span>
+                                                            </div>
+                                                            <div class="buddydrive-actions">
+                                                                <a class="buddydrive-share" href="#">
+                                                                    <span class="screen-reader-text bp-screen-reader-text">Share</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="buddydrive-share-dialog buddydrive-hide">
+                                                            <div class="buddydrive-share-content">
+                                                                <div class="buddydrive-share-input">
+                                                                    <p class="description">Use the following link to share an embed code on this site.</p>
+                                                                    <input type="text" class="buddydrive-share-url" value="images/example" tabindex="0" readonly="">
+                                                                </div>
+                                                            </div>
+                                                            <button type="button" class="buddydrive-share-dialog-close" aria-label="Close sharing dialog">
+                                                                <span class="dashicons dashicons-no"></span>
+                                                            </button>
+                                                        </div>
+                                                    </li>
+                                                    <li class="buddydrive-item not-bulk-editable">
+                                                        <div class="buddydrive-icon">
+                                                            <a href="images/exex11.pdf">
+                                                                <img src="images/text.png" width="48px">
+                                                            </a>
+                                                        </div>
+                                                        <div class="buddydrive-content">
+                                                            <div class="buddydrive-title">
+                                                                <span class="buddydrive-name">
+                                                                    <a href="images/exex11.pdf">Example-1</a>
+                                                                </span>
+                                                                <span class="icon-privacy public"></span>
+                                                            </div>
+                                                            <div class="buddydrive-actions">
+                                                                <a class="buddydrive-share" href="#">
+                                                                    <span class="screen-reader-text bp-screen-reader-text">Share</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="buddydrive-share-dialog buddydrive-hide">
+                                                            <div class="buddydrive-share-content">
+                                                                <div class="buddydrive-share-input">
+                                                                    <p class="description">Use the following link to share an embed code on this site.</p>
+                                                                    <input type="text" class="buddydrive-share-url" value="images/example-1" tabindex="0" readonly="">
+                                                                </div>
+                                                            </div>
+                                                            <button type="button" class="buddydrive-share-dialog-close" aria-label="Close sharing dialog">
+                                                                <span class="dashicons dashicons-no"></span>
+                                                            </button>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div id="buddydrive-pagination"></div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
+                        </article>
+                        <section class="related_wrap related_wrap_empty"></section>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright_wrap">
+                <div class="content_wrap">
+                    <p>
+                        © 2017 All Rights Reserved.
+                        <a href="#">Terms of use</a> and
+                        <a href="#">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+            <a href="#" class="scroll_to_top icon-angle-up-1" title="Scroll to top"></a>
+        </div>
+    </div>
+
+    <div class="custom_html_section"></div>
+
+    <script type='text/javascript' src='js/vendor/jquery/jquery.js'></script>
+    <script type='text/javascript' src='js/vendor/jquery/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='js/custom/custom.js'></script>
+    <script type='text/javascript' src='js/vendor/jquery/jquery.my_add_function.js'></script>
+    <script type='text/javascript' src='http://use.fontawesome.com/fcc8474e79.js'></script>
+    <script type='text/javascript' src='js/vendor/bp/confirm.min.js'></script>
+    <script type='text/javascript' src='js/vendor/bp/widget-members.min.js'></script>
+    <script type='text/javascript' src='js/vendor/bp/jquery-query.min.js'></script>
+    <script type='text/javascript' src='js/vendor/bp/jquery-cookie.min.js'></script>
+    <script type='text/javascript' src='js/vendor/bp/jquery-scroll-to.min.js'></script>
+    <script type='text/javascript' src='js/vendor/bp/buddypress.min.js'></script>
+    <script type='text/javascript' src='js/vendor/bp/bps_button.js'></script>
+    <script type='text/javascript' src='js/custom/excanvas.js'></script>
+    <script type='text/javascript' src='js/vendor/booked/datepicker.min.js'></script>
+    <script type='text/javascript' src='js/vendor/bp/editor.js'></script>
+    <script type='text/javascript' src='js/vendor/bp/foundation.min.js'></script>
+    <script type='text/javascript' src='js/custom/cptfunctions.js'></script>
+    <script type='text/javascript' src='js/custom/jquery.nestable.js'></script>
+    <script type='text/javascript' src='js/custom/cptinnerfun.js'></script>
+    <script type='text/javascript' src='js/vendor/chart/chartjs_new.js'></script>
+    <script type='text/javascript' src='js/custom/legend.js'></script>
+    <script type='text/javascript' src='js/custom/responsive.init.js'></script>
+    <script type='text/javascript' src='js/custom/core.utils.js'></script>
+    <script type='text/javascript' src='js/custom/core.init.js'></script>
+    <script type='text/javascript' src='js/custom/social-share.min.js'></script>
+    <script type='text/javascript' src='js/custom/embed.min.js'></script>
+    <script type='text/javascript' src='js/custom/core.messages.js'></script>
+    <script type='text/javascript' src='js/custom/shortcodes.js'></script>
+    <script type='text/javascript' src='js/vendor/underscore.min.js'></script>
+    <script type='text/javascript' src='js/custom/backbone.min.js'></script>
+    <script type='text/javascript' src='js/custom/util.min.js'></script>
+    <script type='text/javascript' src='js/custom/backbone-w.min.js'></script>
+
+</body>
+
+</html>
