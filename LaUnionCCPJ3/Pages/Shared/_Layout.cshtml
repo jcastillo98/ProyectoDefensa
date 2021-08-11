@@ -59,7 +59,7 @@
             <header class="top_panel_wrap">
                 <div class="menu_user_wrap">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="index">
                             <img src="images/Logo.png" class="logo_main" alt="" content="center">
                         </a>
                     </div>
@@ -71,7 +71,7 @@
                                     <a href="#" class="popup_close"></a>
                                     <div class="form_wrap">
                                         <form name="registration_form" method="post" class="popup_form registration_form">
-                                            <input type="hidden" name="redirect_to" value="index.html" />
+                                            <input type="hidden" name="redirect_to" value="index" />
                                             <div class="form_left">
                                                 <div class="popup_form_field login_field iconed_field">
                                                     <input type="text" id="registration_username" name="registration_username" value="" placeholder="Nombre de Usuario">
@@ -148,45 +148,42 @@
                     </div>
                 </div>
             </header>
-            <div class="container">
+            <div>
                 <main role="main" class="pb-3">
                     @RenderBody()
                 </main>
             </div>
 
-            <footer class="border-top footer text-muted">
-                <div class="container">
-                    &copy; 2021 - LaUnionCCPJ3 - <a asp-area="" asp-page="/Privacy">Privacy</a>
-                </div>
-            </footer>
             <aside class="menu_main_wrap">
                 <nav role="navigation" class="menu_main_nav_area">
                     <ul id="menu_main" class="menu_main_nav">
                         <li class="icon-3 menu-item current-menu-ancestor current-menu-parent menu-item-has-children">
                             <a>Inicio</a>
                             @*<ul class="sub-menu">
-                                <li class="menu-item current-menu-item">  <a asp-page="index" title="Manage">Estilo 1</a></li>
-                                <li class="menu-item"><a href="home-2">Estilo 2</a></li>
-                                <li class="menu-item"><a href="home-3">Estilo 3</a></li>
-                            </ul>*@
+                <li class="menu-item current-menu-item">  <a asp-page="index" title="Manage">Estilo 1</a></li>
+                <li class="menu-item"><a href="home-2">Estilo 2</a></li>
+                <li class="menu-item"><a href="home-3">Estilo 3</a></li>
+            </ul>*@
                         </li>
                         <!--<li class="icon-22 menu-item menu-item-has-children">
-                            <a>Esquema de Colores</a>-->
-                            <!--<ul class="sub-menu">-->
-                                <!--<li class="menu-item"><a href="scheme-1">Esquema de Colores 1</a></li>
-                                <li class="menu-item"><a href="scheme-2">Esquema de Colores 2</a></li>
-                                <li class="menu-item"><a href="scheme-3">Esquema de Colores 3</a></li>-->
-                            <!--</ul>-->
+    <a>Esquema de Colores</a>-->
+                        <!--<ul class="sub-menu">-->
+                        <!--<li class="menu-item"><a href="scheme-1">Esquema de Colores 1</a></li>
+    <li class="menu-item"><a href="scheme-2">Esquema de Colores 2</a></li>
+    <li class="menu-item"><a href="scheme-3">Esquema de Colores 3</a></li>-->
+                        <!--</ul>-->
                         <!--</li>-->
                         <li class="icon-5 menu-item menu-item-has-children">
                             <a>Acerca de</a>
                             <ul class="sub-menu">
                                 <li class="menu-item"><a href="ceo">Presidente del comité</a></li>
-                                <li class="menu-item"><a href="leaders">Delegados</a></li>
+                                @*<li class="menu-item"><a href="leaders">Delegados</a></li>*@
                                 <li class="menu-item"><a href="team">Departamentos</a></li>
                             </ul>
                         </li>
-                        <li class="icon-7 menu-item"><a href="post-formats">Podcast</a></li>
+                        <li class="icon-5 menu-item menu-item-has-children">
+                            <a href="Post-Formats">Podcast</a>
+                        </li>
                         <li class="icon-17 menu-item menu-item-has-children">
                             <a>Educación</a>
                             <ul class="sub-menu">
@@ -218,14 +215,14 @@
                             </ul>
                         </li>
                         <!--<li class="icon-9 menu-item menu-item-has-children"><a>File Storage</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="development.html">Development</a></li>
-                                <li class="menu-item"><a href="marketing.html">Marketing</a></li>
-                                <li class="menu-item"><a href="accounting.html">Accounting</a></li>
-                                <li class="menu-item"><a href="resources.html">Human Resources</a></li>
-                                <li class="menu-item"><a href="supporter.html">Support</a></li>
-                            </ul>
-                        </li>-->
+        <ul class="sub-menu">
+            <li class="menu-item"><a href="development.html">Development</a></li>
+            <li class="menu-item"><a href="marketing.html">Marketing</a></li>
+            <li class="menu-item"><a href="accounting.html">Accounting</a></li>
+            <li class="menu-item"><a href="resources.html">Human Resources</a></li>
+            <li class="menu-item"><a href="supporter.html">Support</a></li>
+        </ul>
+    </li>-->
                         <li class="icon-10 menu-item menu-item-has-children">
                             <a>Galería de fotos</a>
                             <ul class="sub-menu">
@@ -234,26 +231,26 @@
                             </ul>
                         </li>
                         <!--
-                        <li class="icon-13 menu-item menu-item-has-children"><a>Theme Elements</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="shortcodes.html">Shortcodes</a></li>
-                                <li class="menu-item"><a href="typography.html">Typography</a></li>
-                                <li class="menu-item"><a href="infographic.html">Infographic</a></li>
-                                <li class="menu-item menu-item-has-children"><a>Pages</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="single-post.html">Blog Post</a></li>
-                                        <li class="menu-item"><a href="single-event.html">Event Page</a></li>
-                                        <li class="menu-item"><a href="single-training.html">Training Page</a></li>
-                                        <li class="menu-item"><a href="single-test.html">Quiz Page</a></li>
-                                        <li class="menu-item"><a href="single-team.html">Team Member</a></li>
-                                        <li class="menu-item"><a href="about.html">About Company</a></li>
-                                        <li class="menu-item"><a href="contacts.html">Contacts</a></li>
-                                        <li class="menu-item"><a href="support.html">Support</a></li>
-                                        <li class="menu-item"><a href="faq.html">FAQ</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>-->
+    <li class="icon-13 menu-item menu-item-has-children"><a>Theme Elements</a>
+        <ul class="sub-menu">
+            <li class="menu-item"><a href="shortcodes.html">Shortcodes</a></li>
+            <li class="menu-item"><a href="typography.html">Typography</a></li>
+            <li class="menu-item"><a href="infographic.html">Infographic</a></li>
+            <li class="menu-item menu-item-has-children"><a>Pages</a>
+                <ul class="sub-menu">
+                    <li class="menu-item"><a href="single-post.html">Blog Post</a></li>
+                    <li class="menu-item"><a href="single-event.html">Event Page</a></li>
+                    <li class="menu-item"><a href="single-training.html">Training Page</a></li>
+                    <li class="menu-item"><a href="single-test.html">Quiz Page</a></li>
+                    <li class="menu-item"><a href="single-team.html">Team Member</a></li>
+                    <li class="menu-item"><a href="about.html">About Company</a></li>
+                    <li class="menu-item"><a href="contacts.html">Contacts</a></li>
+                    <li class="menu-item"><a href="support.html">Support</a></li>
+                    <li class="menu-item"><a href="faq.html">FAQ</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>-->
                     </ul>
                 </nav>
             </aside>
