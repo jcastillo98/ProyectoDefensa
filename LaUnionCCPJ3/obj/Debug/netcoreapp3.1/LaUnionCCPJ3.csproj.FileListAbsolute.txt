@@ -76,3 +76,6 @@ C:\Users\anb20\Desktop\LaUnionCCPJ\LaUnionCCPJ3\obj\Debug\netcoreapp3.1\Razor\Pa
 C:\Users\anb20\Desktop\LaUnionCCPJ\LaUnionCCPJ3\obj\Debug\netcoreapp3.1\Razor\Pages\Tutorials.cshtml.g.cs
 C:\Users\anb20\Desktop\LaUnionCCPJ\LaUnionCCPJ3\obj\Debug\netcoreapp3.1\Razor\Pages\Typography.cshtml.g.cs
 C:\Users\anb20\Desktop\LaUnionCCPJ\LaUnionCCPJ3\obj\Debug\netcoreapp3.1\Razor\Pages\Vacancies.cshtml.g.cs
+C:\Users\anb20\Desktop\LaUnionCCPJ\LaUnionCCPJ3\obj\Debug\netcoreapp3.1\Razor\Pages\Members1.cshtml.g.cs
+C:\Users\anb20\Desktop\LaUnionCCPJ\LaUnionCCPJ3\obj\Debug\netcoreapp3.1\Razor\Pages\Single-Post1.cshtml.g.cs
+C:\Users\anb20\Desktop\LaUnionCCPJ\LaUnionCCPJ3\obj\Debug\netcoreapp3.1\Razor\Pages\Single-Post2.cshtml.g.cs
