@@ -1411,7 +1411,7 @@ function initQuiz() {
 function initFilters() {
 	"use strict";
 	jQuery(document).ready(function() {
-		jQuery("#sc_blogger_236 .isotope_filters").append("<a href=\"#\" data-filter=\"*\" class=\"theme_button active\">All</a><a href=\"#\" data-filter=\".flt_44\" class=\"theme_button\">Social</a><a href=\"#\" data-filter=\".flt_45\" class=\"theme_button\">Technology</a><a href=\"#\" data-filter=\".flt_43\" class=\"theme_button\">Company</a><a href=\"#\" data-filter=\".flt_42\" class=\"theme_button\">Finance</a>");
+		jQuery("#sc_blogger_236 .isotope_filters").append("<a href=\"#\" data-filter=\"*\" class=\"theme_button active\">Todos</a><a href=\"#\" data-filter=\".flt_44\" class=\"theme_button\">Estudios Sociales</a><a href=\"#\" data-filter=\".flt_45\" class=\"theme_button\">Tecnologia</a><a href=\"#\" data-filter=\".flt_43\" class=\"theme_button\">Matematicas</a><a href=\"#\" data-filter=\".flt_42\" class=\"theme_button\">Fisica</a>");
 	});
 	jQuery(document).ready(function() {
 		jQuery("#sc_blogger_676 .isotope_filters").append("<a href=\"#\" data-filter=\"*\" class=\"theme_button active\">All</a><a href=\"#\" data-filter=\".flt_85\" class=\"theme_button\">3d &amp; motion graphics</a><a href=\"#\" data-filter=\".flt_89\" class=\"theme_button\">Web design</a><a href=\"#\" data-filter=\".flt_83\" class=\"theme_button\">Game development</a><a href=\"#\" data-filter=\".flt_84\" class=\"theme_button\">Video</a><a href=\"#\" data-filter=\".flt_87\" class=\"theme_button\">Design &amp; Illustration</a><a href=\"#\" data-filter=\".flt_86\" class=\"theme_button\">Code</a>");
